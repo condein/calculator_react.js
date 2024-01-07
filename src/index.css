@@ -1,0 +1,68 @@
+.outer {
+  height: 420px;
+  width: 280px;
+
+  box-shadow: 0 0 15px 15px rgb(63, 1, 1);
+  border-radius: 20px;
+
+  background-image: url("component/sec.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+input {
+  height: 15%;
+  width: 90%;
+  margin-top: 20px;
+  border: none;
+  outline: none;
+  font-size: 1.5rem;
+  text-align: end;
+  padding-right: 10px;
+  color: white;
+  background: rgba(255, 0, 0, 0.342);
+  border-radius: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  cursor: pointer;
+  font-weight: 700;
+  backdrop-filter: blur(10px);
+}
+.btn {
+  margin-top: 30px;
+  height: 270px;
+  width: 90%;
+  border-radius: 20px;
+  background-color: rgba(165, 42, 42, 0.548);
+  backdrop-filter: blur(10px);
+}
+
+button {
+  width: 4rem;
+  height: 1.9rem;
+  margin-left: 13px;
+  margin-top: 10px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+  background-color: rgba(201, 2, 2, 0.521);
+  backdrop-filter: blur(10px);
+  border: 1px solid red;
+}
+p {
+  font-size: 10px;
+  text-align: center;
+  padding-right: 10px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  background-color: rgba(255, 0, 0, 0.486);
+  color: white;
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  font-weight: 700;
+  /* border: 1px solid red; */
+  width: 60%;
+  word-spacing: 2px;
+  letter-spacing: 2px;
+}
