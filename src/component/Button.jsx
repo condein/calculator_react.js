@@ -1,8 +1,8 @@
-const Button = ({ btn }) => {
+const Button = ({ btn, handleOnClick }) => {
   return (
     <>
       {btn.map((e) => (
-        <button>{e}</button>
+        <button onClick={() => handleOnClick(e)}>{e}</button>
       ))}
     </>
   );

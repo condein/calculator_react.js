@@ -1,7 +1,7 @@
-const Display = () => {
+const Display = ({ handleOnText }) => {
   return (
     <>
-      <input type="text" readOnly />
+      <input type="text" value={handleOnText} />
     </>
   );
 };
